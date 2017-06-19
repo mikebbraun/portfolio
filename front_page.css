@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*background-image:  url(http://www.thebeach-tulum.com/assets/images/galleries/slide-home-responsive/03-the-beach.xl.jpg);*/
+  background-color: white;
+}
+h1, h2{
+  text-align: center;
+}
+p {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: yellow; /* Add a hover color */
+    color: red;
+}
+
+.active {
+    background-color: red; /* Add an active/current color */
+}
+
+.profile {
+  /*background-color: grey;*/
+  width: 100%;
+  float: left;
+  height: auto;
+  /*padding-left: 2em;
+  margin-top: 3em;*/
+  text-align: center;
+  padding: 2em, 0;
+  /*text-align: left;`*/
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.profile_pic {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  padding: 2em, 0;
+  /*align-items: center;*/
+}
+
+.info {
+  background-color: grey;
+  /*height: ;
+  width: auto;*/
+  text-align: center;
+  padding: 2em, 0;
+}
+
+.social {
+  width: 20%;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  width: auto;
+}
+
+.social img {
+  width: 3em;
+  height: auto;
+}
+
+.profile_pic img{
+  width: 12em;
+  height: 15em;
+  /*align-items: center;*/
+}
+
+.portfolio {
+  background-color: white;
+}
+
+.portfolio img{
+  height: 4em;
+  width: auto;
+}
+.about {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  padding: 2em, 2em;
+}
+
+
+/*main {
+  width: 25%;
+  margin-top: 12em;
+  text-align: center;
+  font-size: 24px;
+  box-sizing: border-box;
+  border-style: inset;
+  border-color: black;
+  float: left;
+}*/
+img {
+
+  /*padding: 4em 1em;*/
+  border-color: black;
+  /*width: 20%;*/
+  height: auto;
+}
