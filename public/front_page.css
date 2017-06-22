@@ -13,11 +13,19 @@ p {
   text-align: center;
 }
 
+.main {
+  border-style: solid;
+  margin: 2em;
+  width: 15%;
+  height: 80%;
+}
+
 
 .icon-bar {
-    width: 100%; /* Full-width */
+    width: 95%; /* Full-width */
     background-color: #555; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
+    margin: 1em 2em;
 }
 
 .icon-bar a {
@@ -40,11 +48,11 @@ p {
 }
 
 .profile {
+  /*border-style: solid;*/
   width: 100%;
   float: left;
   height: auto;
   text-align: center;
-  padding: 4em, 0;
 }
 
 .img-circle {
@@ -84,17 +92,18 @@ p {
 .profile_pic img{
   width: 12em;
   height: 15em;
-  /*align-items: center;*/
 }
 
 .portfolio {
   background-color: white;
+  text-align: center;
 }
 
 .portfolio img{
   height: 4em;
   width: auto;
 }
+
 .about {
   background-color: white;
   width: 100%;
