@@ -11,13 +11,29 @@ h1, h2{
 p {
   font-weight: bold;
   text-align: center;
+  width: 95%;
 }
 
 .main {
+  margin: 15px 20px 0 0;
+  width: 70%;
+  height: 400px;
+  padding: 14px;
+  border: solid;
+  float: left;
+  overflow-y: scroll;
+}
+
+.interests {
+    float: left;
+}
+
+.profile {
   border-style: solid;
-  margin: 2em;
-  width: 15%;
+  margin: 12px 28px 8px 28px;
+  width: 20%;
   height: 80%;
+  float: left;
 }
 
 
@@ -25,7 +41,7 @@ p {
     width: 95%; /* Full-width */
     background-color: #555; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
-    margin: 1em 2em;
+    margin: 12px 28px;
 }
 
 .icon-bar a {
@@ -47,16 +63,13 @@ p {
     background-color: red; /* Add an active/current color */
 }
 
-.profile {
-  /*border-style: solid;*/
+.profile_info {
   width: 100%;
   float: left;
-  height: auto;
-  text-align: center;
 }
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .profile_pic {
@@ -68,40 +81,33 @@ p {
 }
 
 .info {
-  background-color: grey;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding-top: 2em;
-  padding-bottom: 2em;
   text-align: center;
 }
 
 .social {
   width: 20%;
   height: auto;
-  text-align: center;
-  background-color: white;
+  text-align: left;
   width: auto;
+  padding-left: 48px;
 }
 
 .social img {
-  width: 3em;
+  width: 24px;
   height: auto;
 }
 
 .profile_pic img{
-  width: 12em;
-  height: 15em;
+  width: 70%;
+  height: auto;
 }
 
 .portfolio {
-  background-color: white;
   text-align: center;
 }
 
 .portfolio img{
-  height: 4em;
-  width: auto;
+  width: 80%;
 }
 
 .about {
@@ -113,5 +119,4 @@ p {
 
 img {
   border-color: black;
-  height: auto;
 }

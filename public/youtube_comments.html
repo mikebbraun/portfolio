@@ -1,116 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Youtube w/ Comments Mockup</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+  <title>Youtube w/ Comments Mockup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="youtube_comments.css">
-  </head>
-  <body>
+  <link rel="stylesheet" href="youtube_comments.css">
+  <script src="youtube_comments.js" charset="utf-8"></script>
+
+  </script>
+</head>
+<body>
+  <main>
     <header>
       <nav>
         <ul>
           <li><a href="https://www.youtube.com">Youtube</a></li>
           <li><a href="#"></a></li>
-          <li><a href="#"><img src="https://image.freepik.com/free-icon/notifications-bell-button_318-76825.jpg"
-            width="37" height="37"></a></li>
+          <li><a href="#"><img src="https://image.freepik.com/free-icon/notifications-bell-button_318-76825.jpg" width="37" height="37"></a></li>
           <li><form action="index.html" method="post">
-              <input type="text" placeholder="Search..." required>
-              <input type="button" value="Search" width: 20%>
-            </form></li>
-          <li><div class="">Profile Pic</li>
+            <input type="text" placeholder="Search..." required>
+            <input type="button" value="Search" width: 20%>
+          </form></li>
+          <li><div class="">Profile Pic</div></li>
           <li><div class="">Settings Button</div></li>
           <li><div class="">Upload Button</div></li>
         </ul>
       </nav>
-
     </header>
 
-    <section class="main">
-      <div class="video">
-        <div style="position:relative;height:0;padding-bottom:56.25%">
-          <iframe src="https://www.youtube.com/embed/Yu5LBT5h84k?ecver=2"
-          width="640" height="360" frameborder="0"
-          style="position:absolute;width:100%;height:100%;left:0"
-          allowfullscreen></iframe>
+    <div id="mySidenav"class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <span onclick="openNav()">open</span>
+
+    <div class="video">
+      <div style="position:relative;height:0;padding-bottom:56.25%">
+        <iframe src="https://www.youtube.com/embed/Yu5LBT5h84k?ecver=2"
+        width="640" height="360" frameborder="0"
+        style="position:absolute;width:100%;height:100%;left:0"
+        allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="under_vid">
+
+      <section class="about">
+        <div class="name">
+          <p>Lebron James "Long Live The King" Motivational Workout</p>
+        </div>
+        <div class="uplikes">
+          <p>This many upvotes and shit. More data about followers?</p>
+        </div>
+      </section>
+
+      <section id="comments">
+
+        <div class="comment_bar">
+          <ul>
+            <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
+            <li>Comments!!!</li>
+            <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
+            <li>Comments!!!</li>
+            <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
+            <li>Comments!!!</li>
+            <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
+            <li>Comments!!!</li>
+          </ul>
+        </div>
+        <div class="comment_bar">
+          <ul>
+            <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
+            <li>Comments!!!</li>
+            <li>Comments!!!</li>
+            <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
+            <li>Comments!!!</li>
+            <li>Comments!!!</li>
+            <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
+            <li>Comments!!!</li>
+            <li>Comments!!!</li>
+            <li>Comments!!!</li>
+          </ul>
         </div>
       </div>
 
-      <div class="under_vid">
-
-        <section class="about">
-          <div class="name">
-            <p>Lebron James "Long Live The King" Motivational Workout</p>
-          </div>
-          <div class="uplikes">
-            <p>This many upvotes and shit. More data about followers?</p>
-          </div>
-        </section>
-
-        <section id="comments">
-
-          <div class="comment_bar">
-            <ul>
-              <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
-              <li>Comments!!!</li>
-              <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
-              <li>Comments!!!</li>
-              <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
-              <li>Comments!!!</li>
-              <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
-              <li>Comments!!!</li>
-            </ul>
-          </div>
-          <div class="comment_bar">
-            <ul>
-              <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
-              <li>Comments!!!</li>
-              <li>Comments!!!</li>
-              <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
-              <li>Comments!!!</li>
-              <li>Comments!!!</li>
-              <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
-              <li>Comments!!!</li>
-              <li>Comments!!!</li>
-              <li>Comments!!!</li>
-            </ul>
-          </div>
-      </div>
-
-      </section>
-      <!-- <div class="side_bar">
-        <ul>
-          <li>Comments!!!</li>
-          <li>Comments!!!</li>
-          <li>Comments!!!</li>
-          <li>Comments!!!</li>
-          <li>Comments!!!</li>
-          <li>Comments!!!</li>
-          <li>Comments!!!</li>
-        </ul>
-      </div> -->
-
-
-      <div class="sideRight">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <footer>
-        FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
-        FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
-        FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
-        FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
-        FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
-        FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
-      </footer>
     </section>
+  </main>
 
-    </body>
+</body>
 </html>
