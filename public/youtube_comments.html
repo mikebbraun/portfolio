@@ -18,20 +18,20 @@
     <header>
       <nav>
         <ul>
-          <li><a href="https://www.youtube.com">Youtube</a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"><img src="https://image.freepik.com/free-icon/notifications-bell-button_318-76825.jpg" width="37" height="37"></a></li>
+          <li><a href="https://www.youtube.com"><img src="https://developers.google.com/youtube/images/YouTube-logo-light.png" alt=""></a></li>
+          <li><a href="#"><img src="http://flaticons.net/gd/makefg.php?i=icons/Miscellaneous/Bell.png&r=255&g=255&b=255" width="37" height="37"></a></li>
           <li><form action="index.html" method="post">
             <input type="text" placeholder="Search..." required>
             <input type="button" value="Search" width: 20%>
           </form></li>
-          <li><div class="">Profile Pic</div></li>
-          <li><div class="">Settings Button</div></li>
-          <li><div class="">Upload Button</div></li>
+          <li><a href="#"></a><img class="img-circle" src="https://pbs.twimg.com/profile_images/706648734294093825/RpQTUmSW_400x400.jpg" alt="Image of the author"></li>
+          <li><a href="#"><input type="button" value="Settings"></a></li>
+          <li><a href="#"><input type="button" value="Upload"></a></li>
         </ul>
       </nav>
     </header>
 
+    <span onclick="openNav()">open</span>
     <div id="mySidenav"class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#">About</a>
@@ -39,8 +39,6 @@
       <a href="#">Clients</a>
       <a href="#">Contact</a>
     </div>
-
-    <span onclick="openNav()">open</span>
 
     <div class="video">
       <div style="position:relative;height:0;padding-bottom:56.25%">
@@ -52,15 +50,28 @@
     </div>
     <section class="under_vid">
       <section class="about">
-        <div class="name">
+        <div class="vid_name">
           <p>Lebron James "Long Live The King" Motivational Workout</p>
         </div>
         <div class="uplikes">
           <p>This many upvotes and shit. More data about followers?</p>
         </div>
+        <div class="vid_prof">
+          <a href="#"></a><img class="img-circle" src="https://pbs.twimg.com/profile_images/706648734294093825/RpQTUmSW_400x400.jpg" alt="Image of the author">
+          <p>Michael ßraun<p>
+          <p>Subscribe!</p>
+          <a href="#"><input type="button" value="Subscribe!"></a>
+        </div>
+        <div class="subscribe_info">
+          <p>Look how many people are following you!<p>
+          <p>Subscribe!</p>
+          <a href="#"><input type="button" value="Subscribe!"></a>
+        </div>
       </section>
 
       <section id="comments">
+        <h1>Comments</h1>
+        <h1 class="more_videos">More Videos</h1>
         <div class="comment_bar">
           <ul>
             <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
@@ -71,10 +82,6 @@
             <li>Comments!!!</li>
             <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
             <li>Comments!!!</li>
-          </ul>
-        </div>
-        <div class="comment_bar">
-          <ul>
             <li><img src="https://www.fillmurray.com/100/75" alt=""></li>
             <li>Comments!!!</li>
             <li>Comments!!!</li>
@@ -87,7 +94,8 @@
             <li>Comments!!!</li>
           </ul>
         </div>
-      </div>
+
+      </section>
 
     </section>
   </main>
