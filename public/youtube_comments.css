@@ -129,7 +129,6 @@ padding: 0 10px;
 }
 
 .more_videos {
-  width: 50%;
   float: left;
 }
 
@@ -167,9 +166,6 @@ padding: 0 10px;
   padding-right: 10px;
 }
 
-.more_videos iframe {
-  width: 20%;
-}
 @media (max-width: 776px) {
   .profile {
     width: 90%;
