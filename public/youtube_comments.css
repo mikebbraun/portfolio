@@ -99,7 +99,9 @@ nav .button {
 
 .about {
 padding: 0 10px;
+margin-bottom: 35px;
 }
+
 .vid_name {
   width: 50%;
   float: left;
@@ -145,6 +147,15 @@ padding: 0 10px;
   float: left;
   padding-bottom: 36px;
 }
+
+.comment_bar ul {
+  margin-left: 20px;
+}
+
+.comment_bar span {
+  margin-left: 20px;
+}
+
 .comment_bar li {
   list-style-type: none;
 }
@@ -152,6 +163,9 @@ padding: 0 10px;
 #comments{
   width: 100%;
   float: left;
+  border-top: solid white;
+  margin-top: 5px;
+  padding: 15px;
 }
 
 #comments h1 {
