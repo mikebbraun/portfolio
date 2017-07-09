@@ -6,23 +6,36 @@
     <title>MBB</title>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="resume_port.css">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-4">
-          <div class="form-group">
-            <label for="sel1"></label>
-            <select class="form-control" id="sel1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
+
+    <!-- <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Michael Braun</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-envelope"></a></span></li>
+        </ul>
+      </div>
+    </nav> -->
+    <!-- Header Jumbotron -->
+    <div class="jumbotron text-center">
+      <h1>Michael Braun</h1>
+      <p>Food - Sports - Fitness - Web Design</p>
+      <form class="form-inline">
+        <div class="input-group">
+          <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-danger">Subscribe</button>
           </div>
         </div>
-      </div>
+      </form>
+    </div> <!-- END OF JUMBOTRON -->
+    <!-- Main -->
+    <div class="container-fluid">
       <div class="row">
         <div class="col-xs-2">
           <h2>Profile</h2>
@@ -37,6 +50,96 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
+    </div> <!-- Main -->
+    <!-- Portfolio -->
+    <div class="container-fluid text-center bg-grey">
+      <h2>Portfolio</h2>
+      <h4>What we have created</h4>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="yt_mock.png" alt="Youtube Page">
+            <p><strong>Youtube Page</strong></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="ami.png" alt="Picture Board">
+            <p><strong>Picture Board Site</strong></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="sanfran.jpg" alt="San Francisco">
+            <p><strong>San Francisco</strong></p>
+            <p>Yes, San Fran is ours</p>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- Resume -->
+    <div class="container-fluid text-center">
+      <h2>Resume</h2>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <h4>Education</h4>
+          <span class="logo-small glyphicon glyphicon-education"></span>
+        </div>
+        <div class="col-sm-4">
+          <h4>Experience</h4>
+          <span class="logo-small glyphicon glyphicon-briefcase"></span>
+        </div>
+        <div class="col-sm-4">
+          <h4>Philanthropy</h4>
+          <span class="logo-small glyphicon glyphicon-heart"></span>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-sm-4">
+          <h4>Athletics</h4>
+          <span class="logo-small glyphicon glyphicon-asterisk"></span>
+        </div>
+        <div class="col-sm-4">
+          <h4>Soft Skills</h4>
+          <span class="logo-small glyphicon glyphicon-wrench"></span>
+        </div>
+        <div class="col-sm-4">
+          <h4>Interests</h4>
+          <span class="logo-small glyphicon glyphicon-sunglasses"></span>
+        </div>
+      </div>
+    </div>
+    <!--Company-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2>About Company Page</h2>
+          <h4>Lorem ipsum..</h4>
+          <p>Lorem ipsum..</p>
+          <button class="btn btn-default btn-lg">Get in Touch</button>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-signal logo"></span>
+        </div>
+      </div>
+    </div> <!-- Company -->
+    <!--Company-->
+    <div class="container-fluid bg-grey">
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-globe logo"></span>
+        </div>
+        <div class="col-sm-8">
+          <h2>Our Values</h2>
+          <h4><strong>MISSION:</strong> Our mission lorem ipsum..</h4>
+          <p><strong>VISION:</strong> Our vision Lorem ipsum..</p>
+        </div>
+      </div>
+    </div> <!-- Mission -->
+
+
+
   </body>
 </html>
