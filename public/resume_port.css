@@ -1,14 +1,19 @@
-.main {
-  border-style:solid;
-  padding: 0 10px;
-  margin: 0 10px;
+
+.resume {
+  background-color: black;
+  color: white;
+}
+
+.portfolio {
+  background-color: lightgrey;
 }
 
 .jumbotron {
-  background-color: #f4511e;
+  background-color: grey; #f4511e;
   /*background-image: url('https://images.designtrends.com/wp-content/uploads/2016/04/05102803/Hd-Basket-Ball-Image.jpg');*/
   color: #ffffff;
   padding: 100px 25px;
+  margin-bottom: 0;
 }
 
 .container-fluid {
@@ -16,12 +21,12 @@ padding: 60px 50px;
 }
 
 .logo-small {
-    color: #f4511e;
+    color: grey;#f4511e;
     font-size: 50px;
 }
 
 .logo {
-    color: #f4511e;
+    color: grey;#f4511e;
     font-size: 200px;
 }
 
