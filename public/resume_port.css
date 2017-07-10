@@ -1,17 +1,24 @@
+.innerbody {
+  margin: 10px;
+}
+
+.profile {
+  height: 50px;
+}
 
 .resume {
-  background-color: black;
-  color: white;
+  /*background-color: black;*/
+  /*color: white;*/
 }
 
 .portfolio {
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
 }
 
 .jumbotron {
-  background-color: grey; #f4511e;
+  /*background-color: grey; #f4511e;*/
   /*background-image: url('https://images.designtrends.com/wp-content/uploads/2016/04/05102803/Hd-Basket-Ball-Image.jpg');*/
-  color: #ffffff;
+  /*color: #ffffff;*/
   padding: 100px 25px;
   margin-bottom: 0;
 }
@@ -21,19 +28,22 @@ padding: 60px 50px;
 }
 
 .logo-small {
-    color: grey;#f4511e;
+    /*color: grey;#f4511e;*/
     font-size: 50px;
 }
 
 .logo {
-    color: grey;#f4511e;
+    /*color: grey;#f4511e;*/
     font-size: 200px;
 }
 
 .thumbnail {
-    padding: 0 0 15px 0;
+    padding: 15px;
     border: none;
     border-radius: 0;
+    border-style: solid;
+    box-shadow: 10px 10px 4px black;
+
 }
 
 .thumbnail img {
