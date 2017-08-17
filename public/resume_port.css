@@ -15,9 +15,10 @@
   /*background-color: lightgrey;*/
 }
 
+
 .jumbotron {
   /*background-color: grey; #f4511e;*/
-  /*background-image: url('https://images.designtrends.com/wp-content/uploads/2016/04/05102803/Hd-Basket-Ball-Image.jpg');*/
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/16/Appearance_of_sky_for_weather_forecast%2C_Dhaka%2C_Bangladesh.JPG');
   /*color: #ffffff;*/
   padding: 100px 25px;
   margin-bottom: 0;
@@ -37,13 +38,17 @@ padding: 60px 50px;
     font-size: 200px;
 }
 
+h2 {
+    margin-bottom: 2em;
+}
+
 .thumbnail {
     padding: 15px;
     border: none;
     border-radius: 0;
     border-style: solid;
     box-shadow: 10px 10px 4px black;
-
+    height: 400px;
 }
 
 .thumbnail img {
@@ -51,6 +56,8 @@ padding: 60px 50px;
     height: 100%;
     margin-bottom: 10px;
 }
+
+
 
 @media screen and (max-width: 768px) {
     .col-sm-4 {
