@@ -6,6 +6,16 @@ body {
   margin: 10px;
 }
 
+.innerbody h4 {
+  color: white;
+  margin: 1em 2em 0 2em;
+}
+
+
+.name img {
+    height: 40px;
+}
+
 .profile {
   height: 50px;
 }
